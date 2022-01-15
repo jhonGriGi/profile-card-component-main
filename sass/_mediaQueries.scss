@@ -1,0 +1,51 @@
+@media screen and (min-width: 764px) {
+  body {
+    & .top__pattern {
+      width: 700px;
+      left: -40%;
+      top: -350px;
+    }
+  }
+}
+
+@media screen and (min-width: 894px) {
+  body {
+    & .top__pattern {
+      width: 1000px;
+      top: -800px;
+      left: -50%;
+    }
+
+    & .bottom__pattern {
+      width: 1000px;
+    }
+  }
+
+  .container {
+    margin-top: 500px;
+    transform: scale(1.8);
+  }
+}
+
+@media screen and (min-width: 1160px) {
+  .container {
+    margin-top: 200px
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  body {
+    & .top__pattern {
+      width: 1200px;
+      left: -40%;
+    }
+
+    & .bottom__pattern {
+      top: 180px;
+      left: 45%;
+    }
+  }
+  .container {
+    transform: scale(1.3)
+  }
+}
